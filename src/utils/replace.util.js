@@ -1,5 +1,5 @@
 export class Replace {
-  #value = "";
+  #value = '';
 
   constructor(value) {
     this.#value = value;
@@ -10,12 +10,12 @@ export class Replace {
   }
 
   commas() {
-    this.#value = this.#value.replace(/\"/g, "");
+    this.#value = this.#value.replace(/\"/g, '');
     return this;
   }
 
   space() {
-    this.#value = this.#value.replace(/\ /g, "");
+    this.#value = this.#value.replace(/\ /g, '');
     return this;
   }
 

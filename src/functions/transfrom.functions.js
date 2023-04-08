@@ -1,7 +1,7 @@
-import { Replace } from "../utils/replace.util.js";
+import { Replace } from '../utils/replace.util.js';
 
-const $textarea1 = document.querySelector("#textarea1");
-const $textarea2 = document.querySelector("#textarea2");
+const $textarea1 = document.querySelector('#textarea1');
+const $textarea2 = document.querySelector('#textarea2');
 
 export function transfrom() {
   const value = $textarea1.value;
