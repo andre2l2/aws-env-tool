@@ -1,0 +1,14 @@
+{
+  "name": "aws-env-parser",
+  "version": "0.0.1",
+  "description": "A tool for convert your .env in AWS .env format, removing spaces and commas",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre2l2/aws-env-tool.git"
+  },
+  "keywords": [],
+  "author": "Andre Ferreira",
+  "license": "MIT"
+}
