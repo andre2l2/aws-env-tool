@@ -9,4 +9,5 @@ export function transfrom() {
   const response = Replace.remove(value).space().commas().emptyLine().exec();
   $textarea2.value = response;
   ClipBoard.copy(response);
+  alert('Copied to clip-bord');
 }
