@@ -19,6 +19,11 @@ export class Replace {
     return this;
   }
 
+  emptyLine() {
+    this.#value = this.#value.split('\n').filter(Boolean).join('\n');
+    return this;
+  }
+
   exec() {
     return this.#value;
   }
